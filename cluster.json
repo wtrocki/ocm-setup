@@ -1,0 +1,10 @@
+{
+    "name": "wtrocki-small",
+    "region": {
+      "id": "eu-west-1"
+    },
+    "nodes" : {
+      "compute" : 4,
+      "compute_machine_type" : {"id" : "m5.xlarge" }
+    }
+  }
