@@ -1,8 +1,11 @@
-1. Login to the https://api.openshift.com/ and get token:
+## Setup
 
-https://api.openshift.com/openshift/token
+1. Login to the https://cloud.openshift.com and get token:
 
-For stage use: 
---url=https://api.stage.openshift.com/
+## For stagging
 
-2. Use create.sh script
+https://qaprodauth.cloud.redhat.com/openshift/token
+
+For stage use `--url=https://api.stage.openshift.com/` in ocm login screen
+
+2. Use create.sh script to get cluster
